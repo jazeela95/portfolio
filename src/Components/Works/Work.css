@@ -1,0 +1,127 @@
+.work
+{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+}
+/* righ side */
+.w-right
+{
+    position: relative;
+   
+}
+.w-maincircle
+{
+    position: relative;
+    left:13rem;
+    width:18rem;
+    height:18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    background-color: rgb(246, 252, 250);
+    top:2rem;
+
+    
+}
+.w-maincircle>*
+{
+    position:absolute;
+    
+}
+.w-maincircle>:nth-child(1)
+{
+    top:-3rem;
+    left:6rem;
+  
+}
+.w-maincircle>:nth-child(2)
+{
+    top:7rem;
+    left:-3rem;
+     
+}
+.w-maincircle>:nth-child(3)
+{
+    top:6rem;
+    left:6rem;
+     
+}
+.w-maincircle>:nth-child(4)
+{
+    top:15rem;
+    left:5rem;
+     
+}
+.w-maincircle>:nth-child(5)
+{
+    top:6rem;
+    left:14rem;
+     
+}
+.w-secondarycircle
+{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: none;
+    box-shadow: var(--smboxshadow);
+    background-color: white;
+}
+.w-secondarycircle>img
+{
+    transform: scale(0.6);
+}
+.backgroundcircle
+{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index:-1;
+
+}
+.bluecircle
+{
+    background-color: blue;
+    left:20rem;
+    top:0rem;
+}
+.yellowcircle
+{
+    background-color: yellow;
+    left:21rem;
+    top:7rem;
+}
+@media screen and (max-width:480px){
+
+    .work
+    {
+        flex-direction: column;
+        height: 39rem;
+        gap:5rem;
+        padding: 0;;
+
+    }
+    .w-right
+    {
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        transform: scale(0.6);
+    }
+    .w-maincircle
+    {
+        left:-70px;position: fixed;
+    }
+    .backgroundcircle
+    {
+        left:5rem;
+    }
+
+}
