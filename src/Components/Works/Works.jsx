@@ -39,19 +39,19 @@ function Works() {
              transition={{duration:3.5,type:"spring"}}
              className='w-maincircle'>
             <div className='w-secondarycircle'>
-                <img src={upwork} alr=""/>
+                <img src={upwork} alt=""/>
             </div>
             <div className='w-secondarycircle'>
-                <img src={fiverr} alr=""/>
+                <img src={fiverr} alt=""/>
             </div>
             <div className='w-secondarycircle'>
-                <img src={amazon} alr=""/>
+                <img src={amazon} alt=""/>
             </div>
             <div className='w-secondarycircle'>
-                <img src={shopify} alr=""/>
+                <img src={shopify} alt=""/>
             </div>
             <div className='w-secondarycircle'>
-                <img src={facebook} alr=""/>
+                <img src={facebook} alt=""/>
             </div>
             </motion.div>
             {/* backgound circle */}
