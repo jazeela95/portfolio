@@ -48,6 +48,10 @@
 {
     flex: 2;
 }
+.n-button{
+    height:48px;
+    margin-top: 28px;
+}
 @media screen and (max-width:480px){
   .n-list {
     display: none;
